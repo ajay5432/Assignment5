@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disney Characters</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			color: #ff6f00;
+			margin-top: 50px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.card {
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			margin: 20px;
+			padding: 20px;
+			width: 300px;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			transition: transform 0.3s ease-in-out;
+		}
+		.card:hover {
+			transform: translateY(-10px);
+		}
+		.card img {
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 50%;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
+		.card h2 {
+			color: #ff6f00;
+			margin-top: 20px;
+			text-align: center;
+		}
+		.card p {
+			text-align: justify;
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Disney Characters</h1>
+	<div class="container">
+		<div class="card">
+			<img src="Mickey square.png" alt="Mickey Mouse">
+			<h2>Mickey Mouse</h2>
+			<p>Mickey Mouse is a cartoon character created in 1928 by Walt Disney and Ub Iwerks. He is an anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves.</p>
+			<audio controls>
+				<source src="Mickey Mouse ! Theme ! Mickey Mouse Clubhouse.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+		<div class="card">
+			<img src="Donald Square.png" alt="Donald Duck">
+			<h2>Donald Duck</h2>
+			<p>Donald Duck is a cartoon character created in 1934 by Walt Disney Productions. He is an anthropomorphic white duck with a yellow-orange bill, legs, and feet.</p>
+			<iframe width="250" height="250" src="Donal duck.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+		<div class="card">
+			<img src="Goofy.png" alt="Goofy">
+			<h2>Goofy</h2>
+			<p>Goofy is a cartoon character created in 1932 by Walt Disney Productions. He is an anthropomorphic dog.</p>
+			<iframe width="250" height="250" src="Goofy.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</body>
+</html>
